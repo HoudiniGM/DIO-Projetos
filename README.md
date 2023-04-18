@@ -24,7 +24,7 @@ A Pokedex é uma ferramenta usada pelos treinadores de Pokémon para catalogar e
 
 <h3>Como Usar</h3>
 <ol>
-    <li>Acesse o link de deploy.</li>
+    <li>Acesse o link de deploy <a href="https://houdinigm.github.io/Pokedex-API/">AQUI</a></li>
     <li>Visualize a lista de Pokémon.</li>
     <li>Utilize o filtro por tipo para visualizar os Pokémon de um tipo específico.</li>
     <li>(Melhorias futuras) Utilize o filtro por nome ou região para visualizar Pokémon específicos.</li>
