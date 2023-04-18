@@ -1,2 +1,2 @@
 # POKEDEX usando PokeAPI
-Deploy: https://houdinigm.github.io/DIO-Projetos/
+Deploy: https://houdinigm.github.io/Pokedex-API/
