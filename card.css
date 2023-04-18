@@ -1,0 +1,211 @@
+.pokemon-card {
+    border: 7px groove;
+    border-image: radial-gradient(circle at left, #cccccc 30%, #000000 ) 1;
+    white-space: nowrap;
+    overflow: hidden;
+    user-select: none;
+}
+
+.pokemon-img {
+    border-top: 7px groove black;
+}
+
+.pokemon-name {
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    letter-spacing: .4mm;
+    font-weight: 900;
+    text-shadow: 2px 1px 0px black;
+    margin: 0;
+}
+
+.pokemon-card:hover .scrollable {
+    animation: scrolling 5s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-80%);
+    }
+}
+
+.pokemon-card:hover {
+    transition: all .3s ease;
+    z-index: 1;
+    scale: 1.15;
+    box-shadow: 0px 0px 8px 5px #b5b5b5;
+    animation: border-effect-hover .7s linear infinite;
+}
+
+@keyframes border-effect-hover {
+    0%, 100% {
+        border-image: radial-gradient(circle at top right, #cccccc 30%, #000000 ) 1;
+    }
+    25% {
+        border-image: radial-gradient(circle at bottom right, #cccccc 30%, #000000 ) 1;
+      }
+      50% {
+        border-image: radial-gradient(circle at bottom left, #cccccc 30%, #000000 ) 1;
+      }
+      75% {
+        border-image: radial-gradient(circle at top left, #cccccc 30%, #000000) 1;
+      }
+}
+
+
+/** Classes para o tipo do pokemon **/
+.type-icon {
+    margin-bottom: 0;
+    border-top: 1px groove black;
+    flex-grow: 1;
+    color: white;
+    text-shadow: 2px 1px 0px black;
+}
+
+.flying {
+    background-color: #93bef0;
+}
+
+.poison {
+    background-color: #be219c;
+}
+
+.bug {
+    background-color: #45b12b;
+}
+
+.fire {
+    background-color: #f36845;
+}
+
+.normal {
+    background-color: #969696;
+}
+
+.water {
+    background-color: #4788ff;
+}
+
+.grass {
+    background-color: #007c29;
+}
+
+.electric {
+    background-color: #e6e600;
+}
+
+.ground {
+    background-color: #bd5a3b;
+}
+
+.rock {
+    background-color: #cec46a;
+}
+
+.fighting {
+    background-color: #bd2f2f;
+}
+
+.psychic {
+    background-color: #ff2a6a;
+}
+
+.ghost {
+    background-color: #545aaf;
+}
+
+.dragon {
+    background-color: blue;
+}
+
+.fairy {
+    background-color: #ff82ac;
+}
+
+.steel {
+    background-color: #738fac;
+}
+
+.ice {
+    background-color: #48ddd6;
+}
+
+.dark {
+    background-color: #464646;
+}
+
+/* Classes para o fundo do card dependendo do primeiro tipo do pokemon */
+.bg-flying {
+    background-color: #93bef0;
+}
+
+.bg-poison {
+    background-image: radial-gradient(circle at center, white, #be219c85);
+}
+
+.bg-bug {
+    background-image: radial-gradient(circle at center, white, #46b12b);
+}
+
+.bg-fire {
+    background-image: radial-gradient(circle at center, white, #f36845);
+}
+
+.bg-normal {
+    background-image: radial-gradient(circle at center, white, #969696);
+}
+
+.bg-water {
+    background-image: radial-gradient(circle at center, white, #4787ff);
+}
+
+.bg-grass {
+    background-image: radial-gradient(circle at center, white, #007c29);
+}
+
+.bg-electric {
+    background-image: radial-gradient(circle at center, white, #e6e600);
+}
+
+.bg-ground {
+    background-image: radial-gradient(circle at center, white, #bd5a3b);
+}
+
+.bg-rock {
+    background-image: radial-gradient(circle at center, white, #cec46a);
+}
+
+.bg-fighting {
+    background-image: radial-gradient(circle at center, white, #bd2f2f);
+}
+
+.bg-psychic {
+    background-image: radial-gradient(circle at center, white, #ff2a6a);
+}
+
+.bg-ghost {
+    background-image: radial-gradient(circle at center, white, #545aaf);
+}
+
+.bg-dragon {
+    background-image: radial-gradient(circle at center, white, #0000ff);
+}
+
+.bg-fairy {
+    background-image: radial-gradient(circle at center, white, #ff82ac);
+}
+
+.bg-steel {
+    background-image: radial-gradient(circle at center, white, #738fac);
+}
+
+.bg-ice {
+    background-image: radial-gradient(circle at center, white, #48ddd6);
+}
+
+.bg-dark {
+    background-image: radial-gradient(circle at center, white, #464646);
+}

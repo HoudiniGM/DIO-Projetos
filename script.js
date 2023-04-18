@@ -17,8 +17,8 @@ function createPokemonCard(pokemon){
                     <p class="pokemon-name">${pokemonName}</p>
                 </div>
             
-                <div>
-                    <img src="${pokemonSprite}" alt="pokemon-${pokemonNumber}">
+                <div class="pokemon-img">
+                    <img src="${pokemonSprite}" alt="pokemon-${pokemonNumber}" height=100% width=100%>
                 </div>
 
                 <div class="d-flex">
@@ -28,10 +28,19 @@ function createPokemonCard(pokemon){
             );
 
             container.appendChild(pokemonCard);
+            nameScrollableDetect(container.children[container.children.length - 1].children[0]);
         })
 }
 
-function pokemonFilter(){
+//Essa função avalia se o nome do pokemon é maior que o card e atribui a ele um efeito scroll.
+function nameScrollableDetect(pokemonName){
+    if (pokemonName.scrollWidth > pokemonName.offsetWidth){
+        pokemonName.classList.add("scrollable");
+    }
+}
+
+//Filtro de pokemons por tipo
+function pokemonFilterType(){
     let filter = document.getElementById("options").value;
     let container = document.getElementById("container");
         container.innerHTML = "";
@@ -58,8 +67,10 @@ function pokemonFilter(){
 
 let options = document.getElementById("options");
 
-pokemonFilter();
-options.addEventListener("change", pokemonFilter);
+pokemonFilterType();
+options.addEventListener("change", pokemonFilterType);
 
+    
+  
 
 
