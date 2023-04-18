@@ -11,6 +11,7 @@ A Pokedex é uma ferramenta usada pelos treinadores de Pokémon para catalogar e
     <li>Filtro por região (melhoria futura): permitirá ao usuário filtrar Pokémon por região.</li>
     <li>Controle de paginação (melhoria futura): permitirá ao usuário navegar pelos resultados em blocos ou páginas.</li>
     <li>Modal de mais informações (melhoria futura): exibirá informações detalhadas sobre o Pokémon selecionado em um modal.</li>
+    <li>Responsividade para dispositivos móveis (melhoria futura).</li>
 </ul>
 
 <h3>Tecnologias Utilizadas</h3>
