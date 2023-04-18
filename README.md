@@ -14,12 +14,12 @@ A Pokedex é uma ferramenta usada pelos treinadores de Pokémon para catalogar e
 </ul>
 
 <h3>Tecnologias Utilizadas</h3>
-<div class="d-flex flex-wrap gap-2">
-    <img src="README-Content/html-5.png" alt="html-logo" height="40">
-    <img src="README-Content/css-3.png" alt="css-logo" height="40">
-    <img src="README-Content/js.png" alt="javascript-logo" height="40">
-    <img src="README-Content/bootstrap.png" alt="bootstrap-logo" height="40">
-    <img src="README-Content/pokeapi.png" alt="pokepi-logo" height="40">
+<div class="d-flex flex-wrap gap-4">
+    <img src="README-Content/html-5.png" alt="html-logo" height="50" title="HTML">
+    <img src="README-Content/css-3.png" alt="css-logo" height="50" title="CSS">
+    <img src="README-Content/js.png" alt="javascript-logo" height="50" title="Javascript">
+    <img src="README-Content/bootstrap.png" alt="bootstrap-logo" height="50" title="Bootstrap">
+    <img src="README-Content/pokeapi.png" alt="pokepi-logo" height="50" title="PokeAPI">
 </div>
 
 <h3>Como Usar</h3>
